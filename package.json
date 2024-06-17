@@ -1,5 +1,5 @@
 {
-  "homepage": "http://sreenand76.github.io/ai-summarizer1",
+  "homepage": "http://sreenand76.github.io/ai-summarizer",
   "name": "ai-summarizer",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite --host",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
